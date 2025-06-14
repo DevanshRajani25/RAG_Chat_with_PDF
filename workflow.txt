@@ -1,0 +1,13 @@
+User upload PDF via Streamlit UI
+        |
+Extract content with PyPDF
+        |
+Make chunk from that text
+        |
+Convert chunks into vectors using Azure embedding model
+        |
+store vectors with FAISS vectorDB
+        |
+Make RAG QA chain
+        |
+User asks query and get output from PDF 
